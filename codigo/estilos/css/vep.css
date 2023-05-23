@@ -1,0 +1,99 @@
+body{
+	background: #FFFEC3;
+	background-image: url(https://cdn2.civitatis.com/paises-bajos/amsterdam/guia/taxi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+div#principal{
+background: transparent;
+border-color: blue;
+font-family: new times roman;
+font-size: large;
+font-weight: bold;
+border-radius: 20px;
+width: 30%;
+justify-content: center;
+text-align: justify;
+
+}
+
+div#nom{
+  background-color: #FFDC6F;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+div#email{
+  background-color: #FFD349 ;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+div#cumple{
+  background-color: #FFDC6F;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+div#taxi{
+  background-color: #FFD349 ;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+div#per{
+  background-color: #FFDC6F;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 20px;
+  width: 30%;
+  float: right;
+  text-align: center;
+}
+
+div#edit{
+  background-color: #FFD349 ;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 20px;
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+
+a:hover {
+  background: orange;
+}
+
+a:active {
+  background: blue;
+  color: white;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  text-align: center;
+  line-height: 3;
+  color: black;
+}
+input[type="submit"]{
+	padding: 25px;
+	color:#000;
+	background: #F7DC6F;
+	margin: 1rem;
+	cursor: pointer;
+	border-radius: 20px;
+	float: right;
+	justify-content: center;
+	text-align: justify;
+	font-family: new times roman;
+	font-size: large;
+	font-weight: bold;
+}
